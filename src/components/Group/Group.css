@@ -25,7 +25,7 @@ z-index: -1;
   
 }
 
-.header svg{
+.card-avatar svg{
   position: absolute;
   bottom: 2px;
   right: 0;
