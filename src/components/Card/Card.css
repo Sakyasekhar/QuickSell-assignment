@@ -1,0 +1,103 @@
+/* card css */
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-bottom: 10px;
+    height: 90px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-id {
+    color: #666;
+  }
+
+  .card-avatar {
+    position: relative;
+  }
+  
+  .card-avatar img {
+    height: 17px;
+    width:  17px;
+    
+  }
+
+  .card-avatar svg{
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    height: 7px;
+    width:  7px;
+  }
+  
+  .card-content{
+    margin: 5px 0;
+    display: flex;
+    gap:5px;
+
+  }
+
+  .card-content .titleicon{
+    height: 17px;
+    width:  17px;
+  }
+  .card-content span {
+    font-weight: 600;
+    width: 250px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; 
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    bottom: 8px;
+  }
+  
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.05em solid lightgrey;
+    padding: 4px;
+    border-radius: 5px;
+    height: 13px;
+    width: 13px;
+  }
+
+  .card-icon svg{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-tag {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: gray;
+    border:0.05em solid lightgrey;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  
+
+  .graydot{
+    width: 10px;
+    height: 10px;
+    fill: gray;
+  }

@@ -1,0 +1,38 @@
+.group{
+    width: 250px;
+}
+
+.grouptopbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.header , .addmenubuttons{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.header{
+position: relative;
+z-index: -1;
+}
+
+.header img {
+  height: 17px;
+  width:  17px;
+  
+}
+
+.header svg{
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  height: 7px;
+  width:  7px;
+}
+.header .head{
+    font-weight: 600;
+}
+
