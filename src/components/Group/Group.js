@@ -3,6 +3,12 @@ import { ReactComponent as AddIcon } from "../../assets/icons_FEtask/add.svg";
 import { ReactComponent as MenuIcon } from "../../assets/icons_FEtask/3 dot menu.svg";
 import Card from "../Card/Card";
 
+import {ReactComponent as Zero} from "../../assets/icons_FEtask/No-priority.svg"
+import {ReactComponent as One} from "../../assets/icons_FEtask/Img - Low Priority.svg"
+import {ReactComponent as Two} from "../../assets/icons_FEtask/Img - Medium Priority.svg"
+import {ReactComponent as Three} from "../../assets/icons_FEtask/Img - High Priority.svg"
+import {ReactComponent as Four} from "../../assets/icons_FEtask/SVG - Urgent Priority colour.svg"
+
 import { ReactComponent as BacklogIcon } from "../../assets/icons_FEtask/Backlog.svg";
 import { ReactComponent as TodoIcon } from "../../assets/icons_FEtask/To-do.svg";
 import { ReactComponent as InProgressIcon } from "../../assets/icons_FEtask/in-progress.svg";
@@ -24,6 +30,12 @@ const Group = ({ groupValue, heading,users,cardData }) => {
     "In progress": <InProgressIcon />,
     Done: <DoneIcon />,
     Canceled: <CanceledIcon />,
+    "No Prioroity": <Zero />,
+    Urgent: <Four />,
+    High: <One />,
+    Medium: <Two/>,
+    Low: <Three/>
+
   };
 
   useEffect(() => {
